@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border:none;
+    outline:none;
+    /* font-family: sans-serif; */
+  }
+  body{
+  min-height:100vh;
+  display:flex;
+  justify-content: center;
+   align-items: center;
+
+   background-image: url(cont.jpg);    background-size:cover;
+    background-repeat: no-repeat; 
+    font-family: Arial, Helvetica, sans-serif;   
+  }
+  
+  .container{
+    width:600px;
+    height: min-content;
+    background-image: url(https://www.google.com/imgres?q=wallpaper%20weather%20app%20background&imgurl=https%3A%2F%2Fimg.freepik.com%2Fpremium-vector%2Fsky-clouds-design-with-flat-cartoon-poster-flyers-postcards-web-banners_771576-58.jpg&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fweather-background&docid=PXA2ifp_PunObM&tbnid=eLcwTupWf2ncxM&vet=12ahUKEwjoo7mOrb-GAxVJZmwGHRmrDQYQM3oECFwQAA..i&w=626&h=417&hcb=2&ved=2ahUKEwjoo7mOrb-GAxVJZmwGHRmrDQYQM3oECFwQAA);
+    border-radius: 12px;
+    box-shadow: 0px 6px 8px 2px; 
+    padding:28px;
+  
+    background-size:cover;
+    background-repeat: no-repeat; 
+  }
+  .search_box{
+    width:100%;
+    height:min-content;
+    display: flex;
+    outline:none;
+    border-radius: 12px;
+    box-shadow: 0px 6px 8px 2px; 
+    justify-content:space-around;
+    background: white;
+  }
+  .search_box input{
+    width:80%;
+    font-size: 20px;
+    text-transform: capitalize;background-color: #e6f5fb;
+padding:12px 16px;
+border-radius: 14px;
+    /* height: 100%; */
+  }
+  .search_box  svg{
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    margin-top: 6px;
+  }
+
+  .city{
+    font-size: 2.2rem;
+    font-weight: 900;
+    color:white;
+    -webkit-text-stroke: 0.3px black;
+    text-align: center;
+  }
+ 
+  .btn_search{
+  display: block;
+  width:100px;
+  margin:auto;
+  margin-top:1rem;
+  border-radius: 12px;
+  height:30px;
+  box-shadow: 0px 6px 8px 2px;
+  font-weight: 900;
+  } 
+  .btn_search:hover{
+    color:white;
+    background-color: #31b5b9;
+  }
+  .clock{
+    width:15px;
+  }
+  .weather_body {
+width: 60%;
+  }
